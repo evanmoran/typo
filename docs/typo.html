@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="en"><head><title>typo</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="typo"><meta name="groc-project-path" content="src/typo.coffee"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path">src/typo.coffee</div></div><div id="document"><div class="segment"></div><div class="segment"><div class="comments"><div class="wrapper"><h1 id="typo">typo</h1>
+
+<p>The missing javascript type checker. <em>Mistakes happen</em>.</p>
+
+<h3 id="usage">Usage</h3>
+
+<h4 id="typomessage-input-interface">typo(message, input, interface)</h4>
+
+<pre><code>message              The message thrown if thing doesn't match interface
+input                A variable to verify it matches the interface
+spec                 The interface the input must match
+</code></pre></div></div><div class="code"><div class="wrapper"><span class="nv">typo = </span><span class="nf">(message, input, spec) -&gt;</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="s">&#39;typo called&#39;</span>
+
+<span class="nv">typo.is = </span><span class="nf">(input, spec) -&gt;</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="s">&#39;typo.is called&#39;</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>Version</p></div></div><div class="code"><div class="wrapper"><span class="nv">typo.version = </span><span class="s">&#39;0.0.1&#39;</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>Export</p></div></div><div class="code"><div class="wrapper"><span class="nv">module.exports = </span><span class="nx">typo</span></div></div></div></div></body></html>
