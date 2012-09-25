@@ -1,0 +1,29 @@
+{
+  "name": "typo",
+  "version": "0.0.1",
+  "main": "src/typo.js",
+  "description": "The missing javascript type checker. Mistakes happen.",
+  "homepage": "http://github.com/evanmoran/typo/",
+  "keywords": [
+    "type",
+    "checker",
+    "interface"
+  ],
+  "author": "Evan Moran <evan@evanmoran.com>",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "cake test"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.3.3",
+    "underscore": "~1.3.3",
+    "mocha": "~1.1.0",
+    "chai": "~1.0.3",
+    "async": "~0.1.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evanmoran/typo.git"
+  }
+}
