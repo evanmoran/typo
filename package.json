@@ -1,6 +1,6 @@
 {
   "name": "typo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/typo.js",
   "description": "The missing javascript type checker. Mistakes happen.",
   "homepage": "http://github.com/evanmoran/typo/",
